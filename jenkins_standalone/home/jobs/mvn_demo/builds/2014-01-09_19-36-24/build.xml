@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<hudson.maven.MavenModuleSetBuild plugin="maven-plugin@2.1">
+  <actions>
+    <hudson.model.CauseAction>
+      <causes>
+        <hudson.model.Cause_-UserIdCause>
+          <userId>depeng</userId>
+        </hudson.model.Cause_-UserIdCause>
+      </causes>
+    </hudson.model.CauseAction>
+    <hudson.plugins.git.util.BuildData plugin="git@2.0.1">
+      <buildsByBranchName>
+        <entry>
+          <string>origin/master</string>
+          <hudson.plugins.git.util.Build>
+            <marked plugin="git-client@1.6.0">
+              <sha1>7dda5ac44e8c2a01d581a7f80a4446d77f8d69ae</sha1>
+              <branches class="list">
+                <hudson.plugins.git.Branch>
+                  <sha1 reference="../../../sha1"/>
+                  <name>origin/master</name>
+                </hudson.plugins.git.Branch>
+              </branches>
+            </marked>
+            <revision reference="../marked"/>
+            <hudsonBuildNumber>3</hudsonBuildNumber>
+          </hudson.plugins.git.util.Build>
+        </entry>
+      </buildsByBranchName>
+      <lastBuild reference="../buildsByBranchName/entry/hudson.plugins.git.util.Build"/>
+      <scmName></scmName>
+      <remoteUrls>
+        <string>https://github.com/congdepeng/mvn_demo_maven-assembly-plugin.git</string>
+      </remoteUrls>
+    </hudson.plugins.git.util.BuildData>
+    <hudson.plugins.git.GitTagAction plugin="git@2.0.1">
+      <tags class="hudson.util.CopyOnWriteMap$Tree">
+        <entry>
+          <string>origin/master</string>
+          <list/>
+        </entry>
+      </tags>
+      <ws>/home/depeng/github/depeng/jenkins_demo/jenkins_standalone/home/workspace/mvn_demo</ws>
+    </hudson.plugins.git.GitTagAction>
+    <hudson.scm.SCMRevisionState_-None/>
+    <hudson.maven.reporters.MavenAggregatedArtifactRecord>
+      <records/>
+      <parent reference="../../.."/>
+    </hudson.maven.reporters.MavenAggregatedArtifactRecord>
+    <hudson.tasks.Fingerprinter_-FingerprintAction>
+      <record>
+        <entry>
+          <string>libB:libB-1.0.jar</string>
+          <string>dceae9468b73b1398de227b17f47bcc4</string>
+        </entry>
+        <entry>
+          <string>appC:appC-1.0.jar</string>
+          <string>47f1df476b01e0d24eccab3ef3a5738a</string>
+        </entry>
+        <entry>
+          <string>libA:libA-1.0.jar</string>
+          <string>a1a7b129ce6743d0cd8a565e09e0efe9</string>
+        </entry>
+        <entry>
+          <string>appC:appC-1.0.zip</string>
+          <string>9cc6b3cea393561a97fc811ca58ed4a9</string>
+        </entry>
+        <entry>
+          <string>appC:appC:pom.xml</string>
+          <string>b7c9d7c91b83eb22f7917bd2c28b1390</string>
+        </entry>
+      </record>
+    </hudson.tasks.Fingerprinter_-FingerprintAction>
+    <com.sonyericsson.rebuild.RebuildAction plugin="rebuild@1.20"/>
+  </actions>
+  <number>3</number>
+  <startTime>1389267384915</startTime>
+  <result>SUCCESS</result>
+  <duration>20262</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>/home/depeng/github/depeng/jenkins_demo/jenkins_standalone/home/workspace/mvn_demo</workspace>
+  <hudsonVersion>1.546</hudsonVersion>
+  <scm class="hudson.plugins.git.GitChangeLogParser" plugin="git@2.0.1">
+    <authorOrCommitter>false</authorOrCommitter>
+  </scm>
+  <culprits class="com.google.common.collect.EmptyImmutableSortedSet"/>
+  <mavenVersionUsed>3.1.1</mavenVersionUsed>
+</hudson.maven.MavenModuleSetBuild>

@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: aaronwalker
+Build-Jdk: 1.6.0_45
+Extension-Name: github-sqs-plugin
+Implementation-Title: github-sqs-plugin
+Implementation-Version: 1.5
+Group-Id: com.base2services.jenkins
+Short-Name: github-sqs-plugin
+Long-Name: GitHub SQS Build Trigger Plugin
+Url: http://wiki.jenkins-ci.org/display/JENKINS/GitHub+SQS+Plugin
+Plugin-Version: 1.5
+Hudson-Version: 1.451
+Jenkins-Version: 1.451
+Plugin-Dependencies: git:1.1.17,github:1.3,multiple-scms:0.2;resolutio
+ n:=optional,github-api:1.28
+Plugin-Developers: Aaron Walker:aaronwalker:
+

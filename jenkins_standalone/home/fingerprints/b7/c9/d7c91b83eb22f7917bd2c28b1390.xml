@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2014-01-09 11:36:44.937 UTC</timestamp>
+  <original>
+    <name>mvn_demo/appC:appC</name>
+    <number>3</number>
+  </original>
+  <md5sum>b7c9d7c91b83eb22f7917bd2c28b1390</md5sum>
+  <fileName>appC:appC:pom.xml</fileName>
+  <usages>
+    <entry>
+      <string>mvn_demo/appC:appC</string>
+      <ranges>3-6</ranges>
+    </entry>
+    <entry>
+      <string>mvn_demo</string>
+      <ranges>3-6</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

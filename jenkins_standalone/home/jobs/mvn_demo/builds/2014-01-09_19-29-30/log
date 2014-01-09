@@ -1,0 +1,13 @@
+Started by user [8mha:AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYe/dLi1CL9lNQCoNEA6WWB7sEAAAA=[0mdepeng
+Building in workspace /home/depeng/github/depeng/jenkins_demo/jenkins_standalone/home/workspace/mvn_demo
+Unpacking http://archive.apache.org/dist/maven/binaries/apache-maven-3.1.1-bin.zip to /home/depeng/github/depeng/jenkins_demo/jenkins_standalone/home/tools/hudson.tasks.Maven_MavenInstallation/_usr_share_maven_bin_mvn on Jenkins
+Cloning the remote Git repository
+Cloning repository https://github.com/congdepeng/mvn_demo_maven-assembly-plugin.git
+Fetching upstream changes from https://github.com/congdepeng/mvn_demo_maven-assembly-plugin.git
+Fetching upstream changes from https://github.com/congdepeng/mvn_demo_maven-assembly-plugin.git
+Checking out Revision 7dda5ac44e8c2a01d581a7f80a4446d77f8d69ae (origin/master)
+First time build. Skipping changelog.
+Parsing POMs
+ERROR: No such file /home/depeng/github/depeng/jenkins_demo/jenkins_standalone/home/workspace/mvn_demo/pom.xml
+Perhaps you need to specify the correct POM file path in the project configuration?
+[8mha:AAAAWB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P08vOT+vOD8nVc8DzHWtSE4tKMnMz/PLL0ldFVf2c+b/lb5MDAwVRQxSaBqcITRIIQMEMIIUFgAAckCEiWAAAAA=[0mFinished: FAILURE

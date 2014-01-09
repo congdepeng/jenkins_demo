@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2014-01-09 11:38:38.377 UTC</timestamp>
+  <original>
+    <name>mvn_demo/appC:appC</name>
+    <number>5</number>
+  </original>
+  <md5sum>4c353ac44e35fc01a447a4f0b9c339fb</md5sum>
+  <fileName>appC:appC-1.0.zip</fileName>
+  <usages>
+    <entry>
+      <string>mvn_demo/appC:appC</string>
+      <ranges>5</ranges>
+    </entry>
+    <entry>
+      <string>mvn_demo</string>
+      <ranges>5</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

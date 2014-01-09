@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2014-01-09 11:36:44.943 UTC</timestamp>
+  <md5sum>a1a7b129ce6743d0cd8a565e09e0efe9</md5sum>
+  <fileName>libA:libA-1.0.jar</fileName>
+  <usages>
+    <entry>
+      <string>mvn_demo/appC:appC</string>
+      <ranges>3-6</ranges>
+    </entry>
+    <entry>
+      <string>mvn_demo</string>
+      <ranges>3-6</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

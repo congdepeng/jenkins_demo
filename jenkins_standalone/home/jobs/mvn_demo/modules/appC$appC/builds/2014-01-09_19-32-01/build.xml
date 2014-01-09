@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<hudson.maven.MavenBuild plugin="maven-plugin@2.1">
+  <actions>
+    <hudson.tasks.Fingerprinter_-FingerprintAction>
+      <record/>
+    </hudson.tasks.Fingerprinter_-FingerprintAction>
+    <com.sonyericsson.rebuild.RebuildAction plugin="rebuild@1.20"/>
+    <hudson.maven.reporters.MavenArtifactRecord>
+      <records/>
+      <parent reference="../../.."/>
+      <pomArtifact>
+        <groupId>appC</groupId>
+        <artifactId>appC</artifactId>
+        <version>1.0</version>
+        <type>pom</type>
+        <fileName>pom.xml</fileName>
+        <canonicalName>appC-1.0.pom</canonicalName>
+        <md5sum>b7c9d7c91b83eb22f7917bd2c28b1390</md5sum>
+      </pomArtifact>
+      <mainArtifact reference="../pomArtifact"/>
+      <attachedArtifacts/>
+    </hudson.maven.reporters.MavenArtifactRecord>
+  </actions>
+  <number>2</number>
+  <startTime>1389267125123</startTime>
+  <result>FAILURE</result>
+  <duration>6132</duration>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>/home/depeng/github/depeng/jenkins_demo/jenkins_standalone/home/workspace/mvn_demo/appC</workspace>
+</hudson.maven.MavenBuild>
